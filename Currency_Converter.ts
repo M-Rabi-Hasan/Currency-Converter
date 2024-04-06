@@ -14,7 +14,7 @@ const currency: any = {
 async function convertCurrency() {
     try {
         // Display banner
-        await showBanner("CURRENCY CONVERTER", "If you want currency convert, let's get started");
+        await showBanner("CURRENCY CONVERTER", "If you would like to convert currency, let's get started.");
 
         const Question = await inquirer.prompt([
             {
