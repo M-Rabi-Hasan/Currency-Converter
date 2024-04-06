@@ -6,7 +6,7 @@ const currency = {
     GBP: 0.76,
     INR: 74.57,
     PKR: 280,
-    JPY: 111.04 // Adding JPY to currency list
+    
 };
 async function convertCurrency() {
     try {
